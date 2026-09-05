@@ -28,7 +28,7 @@ placeholder.
 
 ## Тестирование на валидность
 
-#### Ошибкок нет
+#### Ошибок нет
 
 ```cpp
 Document checking completed. No errors or warnings to show.
