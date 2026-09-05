@@ -31,8 +31,7 @@ placeholder.
 #### Ошибки
 
 ```cpp
-Bad value 100% for attribute width on element img: Expected a digit but saw % instead.
-Bad value 300px for attribute height on element img: Expected a digit but saw p instead.
+Document checking completed. No errors or warnings to show.
 ```
 
 Сайт работает так, как должен.

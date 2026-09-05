@@ -7,13 +7,16 @@
             aside {float: right;}
             body {background-color: pink;
                 color: blue;}
+            img {width: 100%;
+                height: 300px;}
+            button {width: 150px; height: 20px}
         </style>
     </head>
     <body>
         <header>
-            <img src="408EE13B-675E-41A5-A5AF-C3D064FAA311_1_102_o.jpeg" alt="Какая-то картинка" width="100%" height="300px">
+            <img src="images/pic.jpeg" alt="Тут должна была быть красивая картинка, но она не появилавсь :(">
             <h1>Мирошниченко Антон</h1>
-            <h2>О себе</h2>
+            <h1>О себе</h1>
             <p>Студент НИ ТГУ, факультет ИПМКН, направление ПМИ, 4 курс бакалавриата</p>
             <p>Работа - дизайнер и визуализатор</p>
         </header>
@@ -45,13 +48,14 @@
             </section>
             <section>
             <h2>Обратная связь</h2>
-            <div><input name="name" type="text" placeholder="Имя"></div>
-            <div><input name="email" type="email" placeholder="Email"></div>
-            <div><input name="message" type="text" placeholder="Сообщение"></div>
-            <p><input name="send_button" type="button" value="Отправить"></p>
+            <form>
+                <div><input name="name" type="text" placeholder="Имя"></div>
+                <div><input name="email" type="email" placeholder="Email"></div>
+                <div><textarea name="message" placeholder="Сообщение"></textarea></div>
+            </form>
+            <div><button name="send_button" type="submit">Отправить</button></div>
             </section>
         </main>
-        
         <footer>
             <p><small>© Copyright 2026 Antony</small></p>
         </footer>
